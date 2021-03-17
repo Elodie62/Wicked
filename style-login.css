@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+body {
+  background-color: #333333 !important;
+}
+
+/* Bordered form */
+
+.form-div {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 30px;
+  border: 1px solid #f1f1f1;
+  background: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form-div h3 {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 38px;
+}
+
+.info h3 {
+  text-align: center;
+  margin-bottom: 60px;
+  font-family: "Dancing Script";
+}
+
+.form-div .info p {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-div .info p span {
+  color: #119290;
+  text-align: center;
+}
+
+.Avatar {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.flexContainer {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+.flexContainer div {
+  display: flex;
+  flex-direction: column;
+}
+
+/*#container h1 {
+  width: 38%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}*/
+
+/* Full-width inputs */
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.return {
+  border: none;
+  width: 80px;
+  padding: 8px 6px 8px 6px;
+  border-radius: 8px;
+  background: #52b847;
+  font: bold 13px Arial;
+  color: #fff;
+}
+
+input[type="submit"],
+input[type="button"] {
+  background-color: #53af57;
+  color: white;
+  padding: 14px 20px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+  display: block;
+}
+input[type="submit"]:hover,
+input[type="button"] :hover {
+  background-color: white;
+  color: #53af57;
+  border: 1px solid #53af57;
+}
+
+.button {
+  border: none;
+  width: 100px;
+  padding: 8px 6px 8px 6px;
+  border-radius: 8px;
+  background: #52b847;
+  font: bold 13px Arial;
+  color: #fff;
+}
+
+/* css page index*/
+
+.navbar a:hover {
+  color: chartreuse;
+}
+
+.navbar-right img {
+  width: 30px;
+  height: 30px;
+}
+
+.navbar-right i {
+  margin-right: 5px;
+}
+
+.dropdown-menu {
+  background-color: #52b847 !important;
+}
+
+.wickedLogo {
+  background-color: black;
+  text-align: center;
+  border-bottom: 2px chartreuse solid;
+}
+
+.wickedLogo img {
+  width: 300px;
+  height: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.navbar {
+  background-color: black;
+  position: sticky !important;
+  top: 0;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.form-div p {
+  text-align: center;
+}
+
+.info {
+  margin-bottom: 100px;
+}
+
+.info p {
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Page login*/
+.btn-centre input[type="submit"],
+.btn-centre input[type="button"] {
+  background-color: #53af57;
+  color: white;
+  padding: 14px 20px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+  display: block;
+}
+
+/*page changement de password*/
+
+details {
+  border: none;
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+}
+
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+  text-align: center;
+}
+
+summary h3 {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+details[open] {
+  padding: 0.5em;
+}
+
+details[open] summary {
+  margin-bottom: 0.5em;
+}
+
+summary::-webkit-details-marker {
+  color: #53af57;
+  font-size: 30px;
+}
+
+/* CSS footer*/
+
+footer {
+  text-align: center;
+  background-color: black;
+  height: auto;
+  border-top: 2px chartreuse solid;
+}
+
+.reseauxSociaux i {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  margin-right: 20px;
+}
+
+.reseauxSociaux a {
+  color: white;
+}
+
+.reseauxSociaux a:hover {
+  color: #97c93c;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+footer p {
+  font-size: 10px;
+  color: #fff;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 0;
+}
+
+.apolloVictoria {
+  font-weight: bold;
+}

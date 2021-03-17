@@ -1,0 +1,327 @@
+/*CSS page home*/
+
+.navbar a:hover {
+  color: chartreuse;
+}
+
+.navbar-right img {
+  width: 30px;
+  height: 30px;
+}
+
+.navbar-right i {
+  margin-right: 5px;
+}
+
+.dropdown-menu {
+  background-color: #52b847 !important;
+}
+
+.wickedLogo {
+  background-color: black;
+  text-align: center;
+  border-bottom: 2px chartreuse solid;
+}
+
+.wickedLogo img {
+  width: 300px;
+  height: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.navbar {
+  background-color: black;
+  position: sticky !important;
+  top: 0;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.button {
+  border: none;
+  width: 100px;
+  padding: 8px 6px 8px 6px;
+  border-radius: 8px;
+  background: #52b847;
+  font: bold 13px Arial;
+  color: #fff;
+}
+
+.home img {
+  width: 100%;
+}
+
+/*CSS page visit*/
+
+body {
+  background-color: #333333 !important;
+}
+
+.imgVisit img {
+  width: 100%;
+}
+
+.apollo img,
+.victoria img,
+.officialPartners img {
+  margin: 0 auto;
+  display: block;
+  width: 700px;
+  height: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.apollo p,
+.victoria p {
+  text-align: center;
+  margin-left: 350px;
+  margin-right: 350px;
+  color: #fff;
+}
+
+.victoria h2,
+.officialPartners h2 {
+  color: #52b847;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.flexContainer {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+
+.flexContainer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flexContainer p {
+  margin: 0 100px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.theRubens img,
+.balans img {
+  width: 400px;
+  height: 200px;
+}
+
+.theRubens h3,
+.balans h3 {
+  color: aquamarine;
+}
+
+/*CSS page The story*/
+
+.imgStory img {
+  width: 100%;
+}
+
+.act1 h2,
+.act2 h2 {
+  text-align: center;
+  color: #52b847;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.act1 p,
+.act2 p {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.act1 p span,
+.act2 p span {
+  font-weight: bold;
+  color: cyan;
+}
+
+.nomw,
+.dtl,
+.popular,
+.dg,
+.alaym,
+.motwh {
+  margin: 0 auto;
+  display: block;
+  width: 700px;
+  height: 300px;
+  margin-top: 30px;
+}
+
+.twai,
+.final {
+  display: block;
+  margin: 0 auto;
+}
+
+.osd,
+.tg,
+.twwote,
+.wonderful,
+.ngd,
+.fg {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  height: 476px;
+}
+
+figcaption {
+  color: cyan;
+  text-align: center;
+}
+
+/* CSS Page Videos*/
+
+.titreVideos {
+  text-align: center;
+  text-decoration: underline;
+
+  font-size: 34px;
+  color: #52b847;
+  margin-top: 150px;
+  margin-bottom: 80px;
+}
+
+iframe {
+  margin: 30px;
+}
+
+.Act {
+  color: #fff;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* CSS page Cast & creative */
+.cast {
+  display: inline-block;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.talentCard img {
+  width: 249px;
+  height: 303px;
+  margin-bottom: 20px;
+}
+
+.talentCard h3 {
+  color: #97c93c;
+  text-align: center;
+  font-size: 18px;
+}
+
+.talentCard p {
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
+
+/* CSS page creative */
+
+.imgcast img {
+  width: 100%;
+}
+
+.taille {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.tab {
+  background-color: hsl(81, 54%, 29%);
+  color: #0a0a0a;
+  font-weight: bold;
+  font-size: 18px;
+  transition: background-color 0.2s;
+}
+.tab:hover {
+  background-color: hsl(81, 54%, 39%);
+  color: #007a66;
+}
+
+.tab-selected {
+  background-color: hsl(81, 57%, 51%);
+}
+.tab-selected:hover {
+  background-color: hsl(81, 57%, 61%);
+  color: #007a66;
+}
+
+.creative {
+  display: inline-block;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.creativeCard img {
+  width: 249px;
+  height: 303px;
+  margin-bottom: 20px;
+}
+
+.creativeCard h3 {
+  color: #97c93c;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* CSS footer*/
+
+footer {
+  text-align: center;
+  background-color: black;
+  height: auto;
+  border-top: 2px chartreuse solid;
+}
+
+.reseauxSociaux i {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  margin-right: 20px;
+}
+
+.reseauxSociaux a {
+  color: white;
+}
+
+.reseauxSociaux a:hover {
+  color: #97c93c;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+footer p {
+  font-size: 10px;
+  color: #fff;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 0;
+}
+
+.apolloVictoria {
+  font-weight: bold;
+}
